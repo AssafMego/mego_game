@@ -1,7 +1,9 @@
 Popsicle Selling Game
+
 This Python code simulates a game where you decide how many popsicles to buy for the next day and at what price to sell them. The objective is to maximize your income by attracting customers based on the price you set.
 
 Game Rules
+
 In each day, a random number of customers will be generated.
 Each customer is willing to pay a random amount between 1 and 3 dollars.
 If the customer's willingness to pay is greater than the selling price, they will buy a popsicle.
