@@ -1,5 +1,15 @@
 import random
 
+class Popsicle:
+    def __init__(self, color, flavor, coast, dairy, is_healthy, expire_day):
+        self.color = color
+        self.flavor = flavor
+        self.coast = coast
+        self.dairy = dairy
+        self.is_healthy = is_healthy
+        self.expire_day = expire_day
+#example_popsicle = Popsicle(orange, sweet, example_smth, True, False, 06.04.2024)
+
 def determine_num_of_buyers(num_of_popsicles, num_of_customers, price):
     num_of_buyers = 0
     for customer in range(num_of_customers):
